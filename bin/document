@@ -1,0 +1,29 @@
+
+driver.close() is used to current tab
+driver.quit() is used to close the complete browser
+driver.navigate().to("url") is same as get function
+================
+Dimensions contains two parameter first is AWT and second is selenium
+==============
+driver.manage.window(cordinate point)
+
+BROWSER MAXIMIZATION
+driver.manage().window().maximisize();
+==============================================
+SHRINK OF BROWSER SIZE
+
+dimension d= new dimension(200,500)
+driver.manage().window().setsize(d);
+=================================================
+Point p= new Point(20,50);
+driver.manage().window().stPosition(p)  // Set the position of browser
+================================================
+navigate().forward
+navigate().backward
+navigate().refresh
+================================================
+FOR SCREENSHOT
+File f= ((TakeScreenshot)ch).getsreenshotAs(outputtype.file);
+fileutils.copy(src,new file("D;\selenium\error.png");
+
+=================================================

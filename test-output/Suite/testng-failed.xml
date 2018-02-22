@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="internetexplorer(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="CROSS_BROWSER.VerifyTitle">
+        <methods>
+          <include name="title" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CROSS_BROWSER.VerifyTitle -->
+    </classes>
+  </test> <!-- internetexplorer(failed) -->
+</suite> <!-- Failed suite [Suite] -->
